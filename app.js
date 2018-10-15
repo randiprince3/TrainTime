@@ -38,8 +38,7 @@ var config = {
  trainName = $("#train-input").val().trim();
  destination = $("#destination-input").val().trim();
  frequency = $("#frequency-input").val().trim();
- initialTime = moment($("#time-input").val().trim(),['h:m A']).toISOString();
-    
+ initialTime = moment($("#time-input").val().trim(),['h:m A']).toISOString();    
 
  //Code for the push
  database.ref().push({
